@@ -50,8 +50,5 @@ export class Launcher{
     }
   ]
 
-  attached(){
-    var salvattore = require('salvattore');
-    salvattore.init();
-  }
+  attached(){}
 }

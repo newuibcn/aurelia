@@ -78,7 +78,7 @@
       "bootstrap": "github:twbs/bootstrap@^3.3.5",
       "fetch": "github:github/fetch@^0.10.1",
       "font-awesome": "npm:font-awesome@^4.4.0",
-      "salvattore": "github:rnmp/salvattore@^1.0.9",
+      "polymer": "github:newuibcn/polymer@master",
       "text": "github:systemjs/plugin-text@^0.0.3"
     },
     "devDependencies": {
