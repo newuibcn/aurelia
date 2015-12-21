@@ -1,0 +1,12 @@
+<template>
+  <div id="grid" data-columns class="container">
+    <div repeat.for="tile of tiles">
+      <paper-card heading="${tile.title}">
+        <div class="card-content">
+          <div>${tile.description}</div>
+          <div>${tile.data}</div>
+        </div>
+      </paper-card>
+    </div>
+  </div>
+</template>
