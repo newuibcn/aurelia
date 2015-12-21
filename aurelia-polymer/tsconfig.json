@@ -5,7 +5,7 @@
     "rootDir": "src/",
     "sourceMap": true,
     "target": "es5",
-    "module": "amd",
+    "module": "system",
     "moduleResolution": "classic",
     "declaration": false,
     "noImplicitAny": false,
@@ -19,7 +19,8 @@
     "./src/**/*.ts",
     "./test/**/*.ts",
     "./typings/**/*.d.ts",
-    "./jspm_packages/**/*.d.ts"
+    "./jspm_packages/**/*.d.ts",
+    "./jspm_packages/npm/**/*.d.ts"
   ],
   "exclude": [
     "node_modules"

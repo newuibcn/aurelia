@@ -6,9 +6,7 @@ export class App {
   configureRouter(config: RouterConfiguration, router: Router) {
     config.title = 'Aurelia';
     config.map([
-      { route: ['', 'launcher'], name: 'launcher',      moduleId: 'launcher',      nav: true, title: 'launcher' },
-      { route: 'users',         name: 'users',        moduleId: 'users',        nav: true, title: 'Github Users' },
-      { route: 'child-router',  name: 'child-router', moduleId: 'child-router', nav: true, title: 'Child Router' }
+      { route: ['', 'compact-list'], name: 'compact-list',      moduleId: 'compact-list',      nav: true, title: 'compact-list' }
     ]);
 
     this.router = router;
