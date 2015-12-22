@@ -1,0 +1,11 @@
+<template>
+    <div class="container" style="position: relative">
+        <div class="horizontal layout wrap" packer>
+            <paper-card repeat.for="tile of tiles" class="custom-card ${tile.type | tileType}" heading="${tile.title} ${tile.id}">
+                <div class="card-content">
+                    <div>${tile.description}</div>
+                </div>
+            </paper-card>
+        </div>
+    </div>
+</template>

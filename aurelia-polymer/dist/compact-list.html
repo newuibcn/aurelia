@@ -1,0 +1,15 @@
+<template>
+    <div class="row">
+        <div class="col-lg-3">
+            <paper-listbox selected="0">
+                <paper-item repeat.for="user of users" click.delegate="$parent.selectItem(user)">
+                    <paper-item-body>
+                        <div>${user.name}</div>
+                    </paper-item-body>
+                </paper-item>
+            </paper-listbox>
+        </div>
+        <div class="col-lg-9">
+        </div>
+    </div>
+</template>
