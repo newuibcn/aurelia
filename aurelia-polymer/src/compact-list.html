@@ -1,9 +1,15 @@
 <template>
-    <paper-item>
-        <paper-item-body two-line>
-            <div>Show your status</div>
-            <div secondary>Your status is visible to everyone</div>
-        </paper-item-body>
-        <iron-icon icon="warning"></iron-icon>
-    </paper-item>
+    <div class="row">
+        <div class="col-lg-3">
+            <paper-listbox selected="0">
+                <paper-item repeat.for="user of users" click.delegate="$parent.selectItem(user)">
+                    <paper-item-body>
+                        <div>${user.name}</div>
+                    </paper-item-body>
+                </paper-item>
+            </paper-listbox>
+        </div>
+        <div class="col-lg-9">
+        </div>
+    </div>
 </template>

@@ -1,0 +1,29 @@
+{
+  "name": "polymer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/newuibcn/polymer",
+  "authors": [
+    "avizcaino <avizcaino@newuibcn.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "iron-elements": "PolymerElements/iron-elements#^1.0.0",
+    "neon-elements": "PolymerElements/neon-elements#^1.0.0",
+    "page": "visionmedia/page.js#~1.6.4",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.1",
+    "platinum-elements": "PolymerElements/platinum-elements#^1.1.0",
+    "polymer": "Polymer/polymer#^1.2.0",
+    "paper-menu": "PolymerElements/paper-menu#4fecb43601",
+    "bin-packing-grid": "~0.2.3"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
