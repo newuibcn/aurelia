@@ -54,7 +54,7 @@ export class PackerCustomElement{
         }).bind(this),
 
         now: function(blocks) {
-            blocks.sort(this.maxside);
+            blocks.sort(this.width);
         }
     }
 

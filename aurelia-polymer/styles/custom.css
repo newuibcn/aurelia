@@ -22,12 +22,13 @@
 .size-1of3 { width: 33.333%; }
 
 .custom-card{
+    background-color: rgb(100, 181, 246);
     margin: 1rem;
     width: 20rem;
     height: 20rem;
 }
 
 .custom-card-wide{
-    width: 30rem;
-    height: 30rem;
+    width: 42rem;
+    height: 20rem;
 }
