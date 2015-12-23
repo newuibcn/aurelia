@@ -1,0 +1,27 @@
+<template>
+    <div class="container">
+        <paper-card heading="Form" style="width: 100%">
+            <div class="card-content">
+                <paper-input class="short" label="username" id="inputWithButton">
+                    <iron-icon icon="mail" prefix></iron-icon>
+                    <div suffix>@email.com</div>
+                    <paper-icon-button suffix onclick="clearInput()" icon="clear" alt="clear" title="clear">
+                    </paper-icon-button>
+                </paper-input>
+                <paper-input label="this input requires some text" required auto-validate error-message="needs some text!"></paper-input>
+                <paper-input label="this input requires letters only" auto-validate pattern="[a-zA-Z]*" error-message="letters only!"></paper-input>
+                <paper-input label="this input will only let you type letters" auto-validate allowed-pattern="[a-zA-Z]"></paper-input>
+
+                <paper-input class="short" label="total" type="number">
+                    <div prefix>$</div>
+                </paper-input>
+            </div>
+            <div class="card-actions">
+                <paper-button click.delegate="send()">Send</paper-button>
+            </div>
+        </paper-card>
+        <paper-toast id="sent-form" text="Form sent!" duration="2000">
+            <a href="#">Undo</a>
+        </paper-toast>
+    </div>
+</template>
