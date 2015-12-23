@@ -1,9 +1,31 @@
 <template>
   <require from="bootstrap/css/bootstrap.css"></require>
 
-  <nav-bar router.bind="router"></nav-bar>
+  <paper-drawer-panel>
+    <div drawer>
+      <paper-menu>
+        <paper-item>Item 1</paper-item>
+        <paper-item>Item 2</paper-item>
+      </paper-menu>
+    </div>
+    <div main id="main-panel">
+      <paper-header-panel mode="waterfall-tall">
+        <paper-toolbar class="tall">
+          <paper-icon-button icon="polymer" paper-drawer-toggle></paper-icon-button>
+          <div class="title">Aurelia Polymer</div>
+          <paper-icon-button icon="view-module" click.delegate="goToLauncher()"></paper-icon-button>
+          <paper-icon-button src="https://storage.googleapis.com/material-icons/external-assets/v2/icons/svg/ic_flight_white_48px.svg" click.delegate="goToList()"></paper-icon-button>
+          <paper-icon-button icon="send" click.delegate="goToForm()"></paper-icon-button>
+          <!--<paper-icon-button icon="more-vert" click.delegate="moreAction"></paper-icon-button>-->
+          <paper-progress id="progressBar" class="bottom fit" indeterminate.bind="router.isNavigating"></paper-progress>
+        </paper-toolbar>
+        <div class="content fit">
+          <router-view></router-view>
+        </div>
 
-  <div class="page-host">
-    <router-view></router-view>
-  </div>
+      </paper-header-panel>
+    </div>
+  </paper-drawer-panel>
+
+
 </template>

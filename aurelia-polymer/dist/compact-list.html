@@ -1,15 +1,13 @@
 <template>
-    <div class="row">
-        <div class="col-lg-3">
-            <paper-listbox selected="0">
-                <paper-item repeat.for="user of users" click.delegate="$parent.selectItem(user)">
-                    <paper-item-body>
-                        <div>${user.name}</div>
-                    </paper-item-body>
-                </paper-item>
-            </paper-listbox>
+    <paper-drawer-panel id="master-detail" drawer-width="400px" right-drawer>
+        <div drawer style="background-color: teal">
+            <paper-icon-button icon="arrow-back" click.delegate="showDetail()"></paper-icon-button>
         </div>
-        <div class="col-lg-9">
+        <div main>
+            <paper-menu>
+                <paper-item click.delegate="showDetail()">Item 1</paper-item>
+                <paper-item>Item 2</paper-item>
+            </paper-menu>
         </div>
-    </div>
+    </paper-drawer-panel>
 </template>

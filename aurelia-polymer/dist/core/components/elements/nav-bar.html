@@ -1,7 +1,13 @@
 <template>
-    <paper-toolbar>
-        <paper-icon-button icon="menu" on-tap="menuAction"></paper-icon-button>
-        <div class="title">Title</div>
-        <paper-icon-button icon="more-vert" on-tap="moreAction"></paper-icon-button>
-    </paper-toolbar>
+    <paper-header-panel mode="waterfall-tall">
+        <paper-toolbar>
+            <paper-icon-button icon="polymer" click.delegate=""></paper-icon-button>
+            <div class="title">Aurelia Polymer</div>
+            <paper-icon-button icon="view-module" click.delegate="goToLauncher()"></paper-icon-button>
+            <paper-icon-button src="https://storage.googleapis.com/material-icons/external-assets/v2/icons/svg/ic_flight_white_48px.svg" click.delegate="goToList()"></paper-icon-button>
+            <paper-icon-button icon="send" click.delegate="goToForm()"></paper-icon-button>
+            <!--<paper-icon-button icon="more-vert" click.delegate="moreAction"></paper-icon-button>-->
+            <paper-progress id="progressBar" class="bottom fit" indeterminate.bind="router.isNavigating"></paper-progress>
+        </paper-toolbar>
+    </paper-header-panel>
 </template>

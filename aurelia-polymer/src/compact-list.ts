@@ -21,4 +21,8 @@ export class CompactList{
     selectItem(item){
         alert(JSON.stringify(item))
     }
+
+    showDetail(){
+        $('#master-detail')[0].togglePanel();
+    }
 }
