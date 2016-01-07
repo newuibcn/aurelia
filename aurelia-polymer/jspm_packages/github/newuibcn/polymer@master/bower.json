@@ -17,7 +17,8 @@
     "platinum-elements": "PolymerElements/platinum-elements#^1.1.0",
     "polymer": "Polymer/polymer#^1.2.0",
     "paper-menu": "PolymerElements/paper-menu#4fecb43601",
-    "bin-packing-grid": "~0.2.3"
+    "bin-packing-grid": "~0.2.3",
+    "google-chart": "GoogleWebComponents/google-chart#~1.0.4"
   },
   "ignore": [
     "**/.*",
