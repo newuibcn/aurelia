@@ -18,11 +18,17 @@ export class CompactList{
             .subscribe(this.selectItem.bind(this));
     }
 
+    attached(){}
+
     selectItem(item){
         alert(JSON.stringify(item))
     }
 
     showDetail(){
         $('#master-detail')[0].togglePanel();
+    }
+
+    closeDetail(){
+        $('#master-detail')[0].closeDrawer();
     }
 }
