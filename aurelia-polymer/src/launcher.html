@@ -1,6 +1,22 @@
 <template>
     <div class="container" style="position: relative">
         <div class="horizontal layout start-justified wrap">
+            <paper-card animated animatedShadow="true" class="custom-card ">
+                <google-chart style="width: 100%; height: 100%"
+                        type='pie'
+                        options='{"title": "Distribution of days in 2001Q1", "legend": "none"}'
+                        cols='[{"label":"Month", "type":"string"}, {"label":"Days", "type":"number"}]'
+                        rows='[["Jan", 31],["Feb", 28],["Mar", 31]]'>
+                </google-chart>
+            </paper-card>
+            <paper-card animated animatedShadow="true" class="custom-card ">
+                <google-chart style="width: 100%; height: 100%"
+                        type='area'
+                        options='{"title": "Distribution of days in 2001Q1"}'
+                        cols='[{"label":"Month", "type":"string"}, {"label":"Days", "type":"number"}]'
+                        rows='[["Jan", 31],["Feb", 28],["Mar", 31]]'>
+                </google-chart>
+            </paper-card>
             <paper-card repeat.for="tile of tiles" class="custom-card ${tile.type | tileType}" heading="${tile.title} ${tile.id}" animated animatedShadow="true">
                 <div class="card-content">
                     <div>${tile.description}</div>
