@@ -2,6 +2,7 @@
  * Created by alexvizcaino on 21/12/15.
  */
 export class Launcher{
+    public percentage = 80;
     public tiles = [
         {
             'id': 0,

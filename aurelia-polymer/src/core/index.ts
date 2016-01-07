@@ -8,4 +8,5 @@ export function configure(fc: FrameworkConfiguration){
     fc.globalResources('./converters/converter');
     fc.globalResources('./components/attributes/packer');
     fc.globalResources('./components/attributes/full-height');
+    fc.globalResources('./components/attributes/ring-chart');
 }

@@ -4,7 +4,7 @@
 import {customAttribute, autoinject} from 'aurelia-framework';
 
 @customAttribute('full-height')
-export class FullHeightCustomAttibute{
+export class FullHeight{
     constructor(private _element: Element){}
 
     attached(){

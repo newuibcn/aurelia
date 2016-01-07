@@ -5,7 +5,7 @@ import {customAttribute, autoinject} from 'aurelia-framework';
 
 @customAttribute('packer')
 @autoinject
-export class PackerCustomElement{
+export class Packer{
 
     public root: any;
 
