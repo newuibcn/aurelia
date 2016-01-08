@@ -11,6 +11,7 @@ export class CompactList{
         {"name": "Mike", "selected": false}
     ];
 
+    public overrideHeader: boolean = true;
     public selectedItem;
 
     constructor(private _ol: ObserverLocator){

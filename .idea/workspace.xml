@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f902b883-e487-474f-a7a4-60c4c8805c86" name="Default" comment="ring-chart">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aurelia-polymer/dist/core/components/attributes/ring-chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/ring-chart.ts" />
+    <list default="true" id="f902b883-e487-474f-a7a4-60c4c8805c86" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/dist/compact-list.html" afterPath="$PROJECT_DIR$/aurelia-polymer/dist/compact-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/dist/compact-list.js" afterPath="$PROJECT_DIR$/aurelia-polymer/dist/compact-list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/dist/core/components/attributes/full-height.js" afterPath="$PROJECT_DIR$/aurelia-polymer/dist/core/components/attributes/full-height.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/dist/core/components/attributes/packer.js" afterPath="$PROJECT_DIR$/aurelia-polymer/dist/core/components/attributes/packer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/dist/core/index.js" afterPath="$PROJECT_DIR$/aurelia-polymer/dist/core/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/dist/launcher.html" afterPath="$PROJECT_DIR$/aurelia-polymer/dist/launcher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/dist/launcher.js" afterPath="$PROJECT_DIR$/aurelia-polymer/dist/launcher.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/src/compact-list.html" afterPath="$PROJECT_DIR$/aurelia-polymer/src/compact-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/src/compact-list.ts" afterPath="$PROJECT_DIR$/aurelia-polymer/src/compact-list.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/full-height.ts" afterPath="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/full-height.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/packer.ts" afterPath="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/packer.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/src/core/index.ts" afterPath="$PROJECT_DIR$/aurelia-polymer/src/core/index.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/src/launcher.html" afterPath="$PROJECT_DIR$/aurelia-polymer/src/launcher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aurelia-polymer/src/launcher.ts" afterPath="$PROJECT_DIR$/aurelia-polymer/src/launcher.ts" />
     </list>
     <ignored path="testing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,45 +28,7 @@
     <favorites_list name="testing" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ring-chart.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/ring-chart.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="launcher.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/launcher.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="launcher.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/launcher.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17894737">
-              <caret line="6" column="131" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="131" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#canvas#0;n#paper-card#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#paper-card#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#paper-card#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#google-chart#0;n#paper-card#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#google-chart#0;n#paper-card#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,17 +73,17 @@
         <option value="$PROJECT_DIR$/aurelia-polymer/src/app.ts" />
         <option value="$PROJECT_DIR$/aurelia-polymer/jspm_packages/github/newuibcn/polymer@master/bower_components/paper-drawer-panel/paper-drawer-panel.html" />
         <option value="$PROJECT_DIR$/aurelia-polymer/src/app.html" />
-        <option value="$PROJECT_DIR$/aurelia-polymer/src/compact-list.html" />
-        <option value="$PROJECT_DIR$/aurelia-polymer/src/compact-list.ts" />
         <option value="$PROJECT_DIR$/aurelia-polymer/index.html" />
         <option value="$PROJECT_DIR$/aurelia-polymer/src/core/components/elements/ring-chart.html" />
         <option value="$PROJECT_DIR$/aurelia-polymer/src/core/components/elements/ring-chart.ts" />
         <option value="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/packer.ts" />
-        <option value="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/full-height.ts" />
         <option value="$PROJECT_DIR$/aurelia-polymer/src/core/index.ts" />
         <option value="$PROJECT_DIR$/aurelia-polymer/src/launcher.ts" />
         <option value="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/ring-chart.ts" />
         <option value="$PROJECT_DIR$/aurelia-polymer/src/launcher.html" />
+        <option value="$PROJECT_DIR$/aurelia-polymer/src/compact-list.ts" />
+        <option value="$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/full-height.ts" />
+        <option value="$PROJECT_DIR$/aurelia-polymer/src/compact-list.html" />
       </list>
     </option>
   </component>
@@ -266,10 +222,6 @@
               <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -301,102 +253,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aurelia-polymer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aurelia-polymer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aurelia-polymer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aurelia-polymer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="attributes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -410,7 +266,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="typescript-compiler-editor-notification" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DEVs/personal/wedding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -546,7 +402,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452178340896</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ring-chart">
+      <created>1452183481774</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1452183481774</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -605,7 +467,8 @@
     <MESSAGE value="compact-list drawer" />
     <MESSAGE value="google charts" />
     <MESSAGE value="google charts add to jspm_packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="google charts add to jspm_packages" />
+    <MESSAGE value="ring-chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="ring-chart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -680,7 +543,6 @@
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#paper-drawer-panel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#paper-drawer-panel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#paper-drawer-panel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/form.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08557047">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aurelia-polymer/jspm_packages/github/newuibcn/polymer@master/bower_components/paper-drawer-panel/paper-drawer-panel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33221477">
@@ -877,27 +732,6 @@
           <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#paper-card#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/compact-list.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82885903">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/compact-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05964912">
-          <caret line="2" column="115" selection-start-line="2" selection-start-column="115" selection-end-line="2" selection-end-column="115" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#paper-drawer-panel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#paper-drawer-panel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#paper-drawer-panel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -986,34 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/full-height.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11409396">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/typescriptCompiler/external/lib.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5128" column="115" selection-start-line="5128" selection-start-column="115" selection-end-line="5128" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/ring-chart.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/launcher.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1030,6 +840,58 @@
             <element signature="n#style#0;n#google-chart#0;n#paper-card#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#google-chart#0;n#paper-card#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/launcher.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11409396">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/ring-chart.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6275168">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/form.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14261745">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/compact-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1491228">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#paper-drawer-panel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#paper-drawer-panel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/compact-list.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3137584">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aurelia-polymer/src/core/components/attributes/full-height.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17114094">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
